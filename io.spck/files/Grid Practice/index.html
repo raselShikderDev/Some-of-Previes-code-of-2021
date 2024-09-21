@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css" media="all">
+      
+      
+      #parent{
+          background:red;
+          width:200px;
+          height:150px;
+          margin:50px;
+          position:relative;
+          border:2px solid #fff;
+      }
+      
+      #child{
+          background:red;
+          width:50px;
+          height:50px;
+          position:absolute;
+          left:75px;
+          margin-top:-28px;
+          border-top:2px solid #fff;
+          border-left:2px solid #fff;
+          transform:rotate(45deg);
+      }
+      
+  </style>
+</head>
+<body>
+                <!-- Project -->
+    <section>
+        <div style="background:Red;" id="box1">Red</div>
+        <div style="background:Green;" id="box2">Green</div>
+        <div style="background:Blue;" id="box3">Blue</div>
+        <div style="background:pink;" id="box4">pink</div>
+        <div style="background:yellow;" id="box5">yellow</div>
+        <div style="background:grey;" id="box6">grey</div>
+    </section>
+    
+    <section style="margin-top:150px; background:grey; border:1px solid black; width:340px; height:400px;" class="">
+        <div id="parent">
+            <div id="child">
+                
+            </div>
+        </div>
+    </section>
+  <script src="main.js"></script>
+</body> 
+</html>

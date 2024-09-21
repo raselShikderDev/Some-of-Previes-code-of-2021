@@ -1,0 +1,623 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:62.5%;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+ul li{
+list-style-type:none;
+}
+
+/* Headings */
+h1{
+	color:#fff;
+	font-size:3.1rem;
+	text-align:center;
+	padding:0 13rem;
+}
+
+
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+
+/*========================*/
+/*Reusable Components*/
+/*========================*/
+.row{
+	
+	margin:0 auto;
+}
+
+/* Paragraph */
+.little-discription{
+	color:#fff;
+	font-size:1.4rem;
+	width:60%;
+	margin-left:20%;
+	line-height:2rem;
+}
+
+h2{
+	font-size:4rem;
+	letter-spacing:0.2rem;
+	font-weight:600;
+	margin-bottom:2rem;
+	margin-top:0;
+	color:#fff;
+}
+
+h2::after{
+	content:"";
+	display:block;
+	height:.2rem;
+	background:#333;
+	width:5%;
+	margin:auto;
+	margin-left:47.8%;
+	margin-top:1.7rem;
+}
+
+h3{
+	color:#fff;
+	font-weight:600;
+	letter-spacing:.01rem;
+	margin-top:2.5rem;
+	margin-bottom:1.5rem;
+	font-size:2rem;
+}
+
+/* Button */
+btn:link,btn:visited,.btn{
+	background:#333;
+	border-top:.1rem solid #000;
+	text-transform:uppercase;
+	color:#fff;
+	text-decoration:none;
+	padding:.8rem 4rem;
+	font-size:2.1rem;
+	box-sizing:border-box;
+	border-radius:.4rem;
+	margin-top:1rem;
+}
+
+section{
+	padding:7rem 0;
+}
+/*========================*/
+/*Header Section Start*/ 
+/*========================*/
+
+header{
+	background: linear-gradient(rgba(135,80,156,0.9),rgba(135,80,156,0.9)), url("https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/95607649_235132424465723_4863287169722089472_o.jpg?_nc_cat=103&_nc_sid=110474&efg=eyJpIjoidCJ9&_nc_eui2=AeFi_ViIiGNz_1rpAsxSnLXsKHQ4LYDUZ1AodDgtgNRnUGvxS9Q4GrPAZIUOFPMA0M3EAFNa_r0YFi-db7-6Dovm&_nc_ohc=vX5UboSGbP8AX9J0FJU&_nc_ht=scontent.fjsr1-1.fna&_nc_tp=14&oh=abe10091849448043ba3428cbe3d786b&oe=5ED7CB99");
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:80vh;
+	position:relative;
+}
+
+.logo{
+	height:3.5rem;
+	width:auto;
+	margin-top:2rem;
+	float:left;
+	margin-left:2rem;
+}
+/*----Main Nav----*/
+.main-nav{
+	float:right;
+	margin-top:2rem;
+}
+
+.main-nav li{
+	display:inline-block;
+	margin-left:0.8rem;
+}
+
+.main-nav li:frist-child{
+	margin-left:0;
+}
+
+.main-nav li:frist-child{
+	margin-right:2em;
+}
+
+.main-nav li a:link,.main-nav li a:visited{
+	text-decoration:none;
+	color:#fff;
+	background-color:rgba(100,58,121,0);
+	padding:.5em 1.6em;
+	border-radius:.4em;
+	display:inline-block;
+	font-size:1.6em;
+	transition:2s;
+}
+
+.main-nav li:hover a:link,.main-nav li:hover a:visited{
+	background-color:rgba(100,58,121,1);
+}
+
+.main-nav .active-home{
+	background-color:rgba(100,58,121,1);
+	border-radius:.4em;
+}
+
+.hero-text-box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-10%);
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+
+.btn-hero:link,.btn-hero:visited{
+	background:#eb7d4b;
+	border-top:.03em solid #000;
+	border-bottom:.01em solid #c86a40;
+	display:inline-block;
+}
+/*========================*/
+/* ---Header Section End--- */ 
+/*========================*/
+
+/*========================*/
+/*Services Section Start*/ 
+/*========================*/
+
+.service-section{
+	/*background:#16C2A4;*/
+	background:linear-gradient(rgba(23,194,164,0.9),rgba(23,194,164,0.9)), url("https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/95960979_235707804408185_2653156132310220800_o.jpg?_nc_cat=101&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeGfAdJeffFF7nUs1wHnXomBkRQY1uKCDCqRFBjW4oIMKuMyK8H4zEwVBNL95FPpzSZ3If4MWA0ZGmvrll6ssdTl&_nc_ohc=9I4ccKnBaDEAX8KVeTL&_nc_ht=scontent.fjsr1-1.fna&_nc_tp=14&oh=bf6b27d66a77ddf9d3b43400648132a0&oe=5ED5851E");
+	text-align:center;
+	color:#fff;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+
+.row h2{
+	text-align:center;
+	color:#fff;
+	font-size:2.5rem;
+}
+
+.service-section h2::after{
+	background:#14a58c;
+}
+
+.service-icon{
+	height:12rem;
+	margin-top:4rem;
+	margin-bottom:2.7rem;
+}
+
+.box{
+	padding:1%;
+}
+
+.box p{
+	font-size:1.3rem;
+	text-align:center;
+	line-height:2rem;
+}
+/*========================*/
+/* ---Services Section End--- */ 
+/*========================*/
+
+/*========================*/
+/*Teammate Section Start*/
+/*========================*/
+
+.team-section{
+	/*background:#E7F2F8;*/	
+	background: linear-gradient(rgba(231,241,248,0.8),rgba(231,241,248,0.8)), url("https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/96518876_236403564338609_4826035075822911488_o.jpg?_nc_cat=103&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeEVIVp53RrDegMFreEmg8_MgqWq0lrqtW2CparSWuq1bbBy5yOTTZJ8WTDFXcenUsH8bL1Pxpi9ZYH2u-JOxDMv&_nc_ohc=hKpKFSqZafQAX9u8n7C&_nc_ht=scontent.fjsr1-1.fna&_nc_tp=14&oh=774517e9ba66bbcc050d26bd56746ccb&oe=5ED83E86");
+	text-align:center;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:auto;
+}
+
+
+.box-team h2{
+	color:#3c4761;
+	letter-spacing:0.1rem;
+	font-color:400;
+	margin-bottom:.5rem;
+	font-size:1.5rem;
+}
+
+
+.team-section .little-discription{
+	color:#2D3548;
+	font-weight:300;
+}
+
+.box-team h3{
+	background:#413F3F;
+	display:block;
+	padding:0;
+}
+
+.ltl-pra{
+	color:#2D3548;
+	font-weight:300;
+}
+
+.team-imag{
+	height:10rem;
+	witdh:10rem;
+	border-radius:25%;
+}
+
+.team-section .row h2{
+	color:#2D3548;
+	letter-spacing:0rem;
+	word-spacing:.4rem;
+	font-weight:600;
+}
+
+.p-fix{
+	text-decoration:none;
+	color:#2D3548;
+	font-weight:300;
+	margin-top:1rem;
+}
+
+.box-team span{
+	color:#3c4761;
+}
+
+.box-team .team-member{
+	height:20rem;
+	width:20rem;
+	border-radius:50%;
+	margin-top:2.5px;
+	margin-bottom:1rem
+}
+
+.box-team{
+	padding:2%;
+}
+
+.socail-icon ul li{
+	display:inline-block;
+	margin:0 0.5rem;
+}
+
+.socail-icon ul li a{
+	color:#fff;
+}
+
+.socail-icon ul li a:link i::before{
+ 	background:#BDD1DF;
+ 	width:2rem;
+ 	height:2rem;
+ 	border-radius:50%;
+ 	display:inline-block;
+ 	font-size:1.3rem;
+ 	padding-top:.4rem;
+ 	box-sizing:border-box;
+ }
+/*========================*/
+/* ---Teammate Section End--- */ 
+/*========================*/
+
+/*========================*/
+/* ---Skills Section End--- */ 
+/*========================*/
+.skills-section{
+	background:#fff;
+	text-align:center;
+}
+
+.skills-section .row h2{
+	color:#333;
+}
+
+.testimonial h2::after{
+	content:"";
+	display:block;
+	height:.2rem;
+	background:#dfe8ed;
+	width:5%;
+	margin:auto;
+	margin-left:47.8%;
+	margin-top:1.7rem;
+}
+
+.skills-section .row p{
+	
+}
+
+.skills-section .row img{
+	height:auto;
+	width:100%
+}
+/*========================*/
+/* ---Skills Section End--- */ 
+/*========================*/
+
+/*========================*/
+/* ---Portfolio Section Start--- */ 
+/*========================*/
+.portfolio-section{
+	background:linear-gradient(rgba(255,221,153,0.9),rgba(255,221,153,0.9)), url("https://scontent.fdac3-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/95913391_236968764282089_3605873044993605632_o.jpg?_nc_cat=105&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeEFC1U1XgQQYUHr6_rdF0xPSUZSbKp2Z_JJRlJsqnZn8lG3TrvMmb3IeSvYdw7yLCIJaiSGK28vUBD21RGPLp3u&_nc_ohc=cXGhjqGEDJoAX8hc02u&_nc_ht=scontent.fdac3-1.fna&_nc_tp=14&oh=cb30385abffb5463e1d2e50c1ff96257&oe=5ED86EDD");
+	text-align:center;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:auto;
+}
+
+.portfolio-section .row h2{
+	color:#3c4761;
+	font-weight:600;
+}
+
+.portfolio-section h2::after{
+	content:"";
+	display:block;
+	height:.2rem;
+	background:#e5c37f;
+	width:5%;
+	margin:auto;
+	margin-left:47.8%;
+	margin-top:1.7rem;
+}
+
+.portfolio-filtter button{
+	background:#EBC884;
+	font-size:1.2rem;
+	padding:.5rem 1.2rem .5rem 1.2rem;
+	margin-left:0.5rem;
+	margin-top:2rem;
+	margin-bottom:3rem;
+	border:0rem solid #D3B477;
+	border-radius:.3rem;
+	transform:uppercase;
+}
+
+.portfolio-filtter button:first-child{
+	background:white;
+}
+
+.portfolio-image{
+	width:100%;
+	height:28rem;
+}
+
+.portfolio-section .col:nth-child(3){
+	margin-left:0;
+}
+
+.box-portfolio h4{
+	color:#333;
+	font-weight:600;
+}
+
+.box-portfolio:last-child{
+margin-bottom:5rem;
+}
+
+.more-project{
+	background:#16C2A4;
+	color:#fff;
+	padding:1rem 4.5rem;
+	font-size:2.2rem;
+	border-bottom-color:#14a586;
+}
+
+/*========================*/
+/* ---Portfolio Section End--- */ 
+/*========================*/
+
+/*========================*/
+/* ---Testimonial Section Start--- */ 
+/*========================*/
+.testimonial{
+	background:linear-gradient(rgba(215,70,128,0.9),rgba(215,70,128,0.9)), url("https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/95832857_237446624234303_9058420295978713088_o.jpg?_nc_cat=100&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeFvs2BJx6jb8kLq4Rktp8mI7oTImBR9j3zuhMiYFH2PfBWgJwiIhj7i1Mb-oaK-3ljdhBTyf8UzGUWtvD2xAvgy&_nc_ohc=kb5kfVaFr0wAX8_MW9Y&_nc_ht=scontent.fjsr1-1.fna&_nc_tp=14&oh=26e0ed9046700ec87410ce782e85c7c9&oe=5EDA299B");
+	height:auto;
+	text-align:center;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.testimonial::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.testimonial h2{
+	font-size:2rem;
+	text-align:center;
+}
+
+.testimonial h2::after{
+	content:"";
+	display:block;
+	height:.2rem;
+	background:#d6d6d6;
+	width:5%;
+	margin:auto;
+	margin-left:47.8%;
+	margin-top:1.7rem;
+}
+
+.little-discription{
+	font-weight:500;
+	color:#fff;
+	font-size:1.6rem;
+	text-align:center;
+}
+
+.testimonial .col:nth-child(3){
+	margin-left:0;
+}
+
+.testimonial .col:nth-child(1),.testimonial .col:nth-child(2){
+	margin-top:5rem;
+}
+
+.testimonial .col:nth-child(3),.testimonial .col:nth-child(4){
+	margin-top:7rem;
+}
+
+.clint-photo{
+	float:left;
+	width:10rem;
+	margin-left:6rem;
+}
+
+.clint-photo .clint-img{
+	height:8rem;
+	border-radius:50%;
+	margin-bottom:3rem;
+}
+
+.clint-review{
+	float:left;
+	width:27rem;
+}
+
+.clint-review .rvw{
+	font-size:1.5rem;
+	font-weight:400;
+	color:#fff;
+	font-style:italic;
+}
+
+
+.clint-review h4{
+	font-size:1.5rem;
+	color:#fff;
+	font-weight:600;
+	margin-top:1rem;
+	margin-bottom:.3rem;
+}
+
+.role{
+	color:#ffdd99;
+	font-size:1.1rem;
+	font-weight:600;
+}
+	
+/*========================*/
+/* ---Testimonial Section End--- */ 
+/*========================*/
+
+/*========================*/
+/* ---Contact Section Start--- */ 
+/*========================*/
+
+.contact-section{
+	background:linear-gradient(rgba(60,84,153,0.9),rgba(60,84,153,0.9)), url("https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/96599555_237614940884138_8868138543092858880_o.jpg?_nc_cat=110&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeHHkCTipDcGnafzsw63-dGaBuJcg6Jjk6MG4lyDomOToyAojl9TanWea6cPHQCpT-RIUFjTLs6uP6SA6cRHwcoQ&_nc_ohc=QhpSyhCgzUoAX8-cnYb&_nc_ht=scontent.fjsr1-1.fna&_nc_tp=14&oh=ea997453c5d8ab0013bce09c6e8f3391&oe=5EDB199E");
+	height:auto;
+	text-align:center;
+	
+}
+
+.contact-section h2{
+	font-size:2rem;
+	text-align:center;
+}
+
+.contact-section h2::after{
+	content:"";
+	display:block;
+	height:.2rem;
+	background:#d6d6d6;
+	width:5%;
+	margin:auto;
+	margin-left:47.8%;
+	margin-top:1.7rem;
+}
+
+.contact-section .little-discription{
+	font-weight:500;
+	color:#fff;
+	font-size:1.3rem;
+	margin-bottom:5rem;
+}
+
+.contact-section form{
+	margin-top:10rem;
+	width:70%;
+	margin:auto;
+}
+
+.contact-section input[type="text"],.contact-section input[type="email"],textarea{
+	background-color:#273A71;
+	border:.1rem solid #273a71;
+	width:100%;
+	padding:1.5rem;
+	border-radius:0.5rem;
+	color:white;
+	font-size:1.7rem
+}
+
+.contact-section form ::placeholder{
+	color:#fff
+	opacity:1;
+}
+
+.contact-section input[type="submit"]{
+	background:#30BAE7;
+	color:#fff;
+	margin-bottom:5rem;
+}
+
+.btn-submit{
+	padding-top:2rem;
+	background:#30BAE7;
+	color:#fff;
+	margin-bottom:5rem;
+}
+
+/*========================*/
+/* ---Conatct Section End--- */ 
+/*========================*/
+
+/*========================*/
+/* ---footer Section Start--- */ 
+/*========================*/
+	footer{
+		text-align:center;
+	}
+	
+	a{
+		text-decoration:none;
+	}
+	
+	footer .ro{
+	margin-left:20rem;
+	}
+	
+	footer ul li{
+		display:inline-block;
+		float:left;
+		margin-left:1rem;
+		margin-top:2rem;
+		margin-bottom:2rem;
+		text-align:center;
+	}
+/*========================*/
+/* ---Footer Section End--- */ 
+/*========================*/

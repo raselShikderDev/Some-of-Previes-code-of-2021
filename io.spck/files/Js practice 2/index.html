@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css" media="all">
+  
+  	 #userNumber{
+  		width:24px;
+  		height:20px;
+  		border: 0.6px solid black;
+  		font-size:15pt;
+  	}
+  	
+  	#userNumber:focus, #btn:focus{
+  		outline:none;
+  	}
+  	
+  	#btn{
+  		color:white;
+  		background:grey;
+  		margin:20px auto;
+  		padding:10px 6px;
+  		text-align:center;
+  		border:none;
+  		border-radius:5px;
+  	}
+  	
+  	#btn:hover, #btn:click{
+  		background:green;
+  	}
+  	
+  	.container{
+  		width:100%;
+  	}
+  	
+  	.container div, div #sub{
+  		width:50%;
+  		margin:auto;
+  	}
+  	
+  	
+  </style>
+</head>
+<body>
+
+
+
+
+  	<div style="" class="container">
+  		<div>
+				<span id="IdOne">0</span>&nbsp;
+				<span>+</span>&nbsp;
+				<span id="IdTwo">0</span>&nbsp;
+				<span>=</span>&nbsp;
+				<input style="" type="text" id="userNumber"  /><br />
+				<div id="sub">
+					<input type="submit" id="btn" value="Submit" />
+				</div>
+			</div>
+		</div>
+
+
+  <script src="main.js"></script>
+  <script type="text/javascript" charset="utf-8">
+  
+ /* var fristNumber = document.getElementById('IdOne');
+  var SecoundNumber = document.getElementById('IdTwo');
+  var userInputs = document.getElementById('userNumber');
+  var myBtn = document.getElementById('btn')
+  
+  
+ var num1 = fristNumber.innerText = Math.ceil(Math.random()*9);
+ var num2 = SecoundNumber.innerText = Math.ceil(Math.random()*9);
+  
+  myBtn.addEventListener("click", () => {
+  	
+  	var calculate = parseInt(num1) + parseInt(num2);
+  	var userCalculation = parseInt(userInputs.value);
+  	
+  	if(calculate === userCalculation){
+  		window.open("www.google.com");
+  	} else{
+  		document.write('Wrong')
+  	}
+  	
+  });
+  	
+  // take two span and i gave him two id's
+  // take one input for user value and gave him a id
+  // take one submit button and gave him a id
+	// got access in all of html element by their id's and i keep both into two variables
+	// take two vairables and slect two span 
+	// creat two random number using Math and both of them put down in selected two span
+  // Calculate that created random numbers and convert it in parse number
+  // take that users number and make it parse number
+  // cheak conditions 
+  // print The Result.
+  
+  	
+  	
+  	
+  	
+  </script>
+</body>
+</html>
+
+
+
+
+
+<!--script>
+function myFunction() {
+  var hour = new Date().getHours(); 
+  var greeting;
+  if (hour < 18) {
+    greeting = "Good day";
+  } else {
+    greeting = "Good evening";
+  }
+  document.getElementById("demo").innerHTML = greeting;
+}
+</script-->
+
+

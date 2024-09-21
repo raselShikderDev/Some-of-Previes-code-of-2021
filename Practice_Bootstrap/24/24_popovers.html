@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Tooltips | Bootstrap 4</title>
+</head>
+<body>
+  <h1 class="display-3 text-center my-4">Popovers</h1>
+  <div class="container">
+    <!--########################START HERE#########################-->
+
+    <!-- POPOVER -->
+    	<button class="btn btn-sm btn-outline-success" data-toggle="popover" title="Rasel" data-placement="top" >Popover</button>
+    <br> <br>
+
+    <!-- DISMISSIBLE POPOVER -->
+
+    <br><hr>
+
+    <!-- Control with JS-->
+      
+      </div>
+
+  <div style="margin-top:500px;"></div>
+
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $('[data-toggle="popover"]').popover();
+
+    function showPopover(){
+      $('#myPopover1').popover('show');
+    }
+    function hidePopover(){
+      $('#myPopover1').popover('hide');
+    }
+    function togglePopover(){
+      $('#myPopover1').popover('toggle');
+    }
+  </script>
+</body>
+</html>

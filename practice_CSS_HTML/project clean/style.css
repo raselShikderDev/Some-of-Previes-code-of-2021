@@ -1,0 +1,94 @@
+body{
+	padding:0;
+	margin:0;
+	font-family:Verdana;
+	background-color:#262626;
+}
+
+.main{
+	
+	width:100%;
+	height:600px;
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:300px;
+}
+
+.main .logo{
+	
+	margin-top:250px;
+	margin:auto;
+}
+
+.main .logo h1{
+	color:white;
+	font-family:cursive;
+	font-style:italic;
+	text-align:center;
+	font-size:80px;
+	margin-bottom:0;
+	padding:0;
+}
+
+.main .login{
+	position:absolute;
+	display:inline;
+	left:278px;
+	
+}
+
+.radias{
+	border:2px solid #676767;
+	border-radius:10px;
+	width:380px;
+	height:38px;
+	font-size:23px;
+}
+
+.login .username, .login .password{
+	margin:25px;
+}
+
+.login .password .l1,.login .password .l2{
+	color:#9cb4d8;
+	font-size:15px;
+	text-decoration:none;
+}
+
+.login .password a,.login .password a:hover{
+	color:fff;
+	text-decoration:underline;
+}
+
+.login .password .l2{
+	margin:55px;
+}
+
+.password .chk-box{
+	width:15px;
+	padding-top:5px;
+	margin-left:3px;
+	
+}
+
+.main .login .login_btn{
+	position:absolute;
+	left:295px;
+}
+
+.main .login .login_btn .lgd{
+	width:90px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#006600;
+	color:#f9f9f9;
+	box-sizing:border-box;
+	font-size:25px;
+	font-weight:700;
+	font-family:fantasy;
+	font-style:italic;
+	border:2px solid #8EB865;
+	border-radius:8px;
+}

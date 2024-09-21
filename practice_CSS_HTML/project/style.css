@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:
+	font-family: sans-serif;
+}
+
+.head{
+	background:#3E5C9A;
+	padding:8px 0;
+}
+
+.head::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+
+.container{
+	width:65%;
+	margin:auto;
+	o
+}
+
+.fb_logo{
+	width:30%;
+	float:left;
+	
+	
+}
+
+
+.fb_logo img{
+	width:160px;
+	padding-top:20px;
+	
+}
+
+.fb_login_input{
+	width:70%;
+	float:left;
+	color:white;
+}
+
+.password a{
+	text-decoration:none;
+	color:#9cb4d8;
+	font-size:12px;
+}
+
+.password a:hover{
+	text-decoration:underline;
+}
+
+.fb_login_input{
+	float:right;
+}
+
+.fb_login_input label, .fb_login_input input{
+	display:block;
+}
+
+.fb_login_input email_phone,
+.fb_login_input password,
+.fb_login_input login{
+	float:left;
+	margin-right:15px;
+}
+.fb_login_input label{
+	font-size:15px;
+	margin-bottom:5px;
+}
+
+.fb_login_input login{
+	margin-right:0;
+	margin-left:60px;
+}
+
+.fb_login_input [type="text"],
+.fb_login_input [type="password"]{
+	border:1px solid #333;
+	font-weight:400;
+	font-size:14px;
+	padding:5px;
+}
+
+.fb_login_input [type="submit"]{
+	background-color:#4267b2;
+	border:1px solid #29487d;
+	color:#fff;
+	padding:3px 8px;
+	margin-top:22.5px;
+}
+

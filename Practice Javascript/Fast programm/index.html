@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>its ok</title>
+  <style type="text/css">
+  		
+  		
+  </style>
+</head>
+<body>
+	  
+	 <script>		
+	 
+	 /* Make a guessing game of number */
+	 
+	 	// Guess a number from 1 to 5
+	 	// Generate a random number between 1 to 5
+	 	// Check condition
+	 	// print result
+	 	// run the program for 5 times
+		
+	for(var i = 1; i <= 3; i++){
+	 var totalWin = 0
+	 var totalLose = 0
+	 var takeNum = parseInt(prompt("Choose a number in 1 to 5: "));
+	 var randomNum = Math.floor(Math.random()*6);
+	 
+	 if(takeNum == randomNum){
+	 	totalWin = totalWin+1
+	 	document.write("Congratulations! You won")
+	 	break;
+	 }
+	 else{
+	 	totalLose = totalLose+1
+	 	document.write("Sorry! You lost")
+	 	break;
+	 }
+	}		
+		
+		
+		
+		
+		
+		
+		 Guessing Game 
+		var numberOfWins = 0
+		var numberOfLost = 0
+		
+		// run the program for 5 times 
+		for (var i = 1; i <= 2; i++) {
+		
+		// Guess a number from 1 to 5
+		var guessNumber = parseInt(prompt("Guess a number from 1 to 5 : "))
+		
+		// Generate a random number between 1 to 5
+		var randomNumber = Math.floor(Math.random() * 5) + 1;
+		
+		//check condition
+		
+		if (guessNumber == randomNumber) {
+		numberOfWins++;
+		console.log("You have won ")
+		}
+		else {
+		numberOfLost++;
+		console.log("You have lost. Random number was : " + randomNumber)
+		}
+		}
+		console.log("Total win = " + numberOfWins)
+		console.log("Total lost = " + numberOfLost)
+		
+		*/
+		
+		
+	</script>
+</body>
+  <!-- JS SCRIPT -->
+  <script src="js/index.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

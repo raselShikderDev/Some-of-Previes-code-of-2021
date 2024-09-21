@@ -1,0 +1,154 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-family: 'Titillium Web';
+	padding:0;
+	margin:0;
+}
+
+#tittle{
+	font-size:16px;
+}
+
+
+#navBar{
+	/*background:#AA70C0;*/
+	background:rgba(135,80,156,0.9);
+}
+
+#navBar .nav-item .nav-link{
+	color:#fff;
+	font-weight:400;
+	font-style:italic;
+	text-transform:uppercase;
+}
+
+#header{
+	background: url("../images/hero-bg.jpg");
+	position:relative;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:top;
+	width:100%;
+	min-height:650px;
+}
+
+#header .bg-overly{
+	background:rgba(135,80,156,0.8);
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	
+}
+
+#header h2{
+		margin-top:260px;
+	}
+
+#btn{
+	font-weight:bold;
+}
+
+#service{
+	background: url("../images/services-bg.jpg");
+	position:relative;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-position:;
+	min-height:850px;
+	background-size:100% 100%;
+	
+}
+
+#service .bg-overly{
+	background:rgba(23,194,164,0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	min-height:800px;
+}
+
+#service #h2{
+	text-align:center;
+	
+}
+#service #h2:after{
+	content:"";
+	display:block;
+	width:35%;
+	height:1px;
+	background:#121212;
+	margin:auto;
+	margin-top:10px;
+}
+
+#service .p-fix{
+	padding-left:0px 20px 0px 20px;
+}
+
+#service img{
+	width:70px;
+}
+
+#service {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 480px) {
+	#header{
+		min-height:500px;
+	}
+	
+	#header h2{
+		font-size:28px;
+		text-align:center;
+		margin-top:130px;
+	}
+	
+	#service{
+		min-height:850px;
+	}
+	
+	#service .bg-overly{
+		
+	}
+	
+	 #h2{
+		font-size:25px;
+		
+	}
+	
+	
+	#service .p-fix{
+		padding:0;
+		font-size:19px;
+	}
+	
+	#service img{
+		width:30px;
+		
+	}
+	
+	#service h3{
+		font-size:20px;
+	}
+	
+}

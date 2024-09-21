@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+/***** Header Area ******/
+.header-area {
+	background-color: #02918c;
+	padding: 12px;
+	overflow: hidden;
+}
+.logo-area {
+	width: 25%;
+	float: left;	
+}
+.logo-area h4 {
+	text-transform: uppercase;
+	font-size: 27px;
+	margin: 0;
+}
+.logo-area .my {
+	color: #FFFFFF;
+}
+.logo-area .folio {
+	color: #cfc91d;
+}
+.menu-area {
+	width: 75%;
+	overflow: hidden;
+	padding-top: 13px;
+}
+.menu-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+.menu-area ul li {
+	float: left;
+	overflow: hidden;
+	margin: 0 20px;
+}
+.menu-area ul li a {
+	display: block;
+	text-decoration: none;
+	color: #f3f9f8;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+/****** Introduction Area ******/
+.introduction-area {
+	overflow: hidden;
+	text-align: center;
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	height: auto;	
+	background-repeat: no-repeat;
+	padding: 200px 0;	
+}
+.introduction-area p {
+	color: #FFFFFF;
+	font-size: 30px;
+	margin: 0;
+}
+.introduction-area h2 {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 70px;
+	letter-spacing: 17px;
+	margin: 0;
+}
+.small  p{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.eagle img {
+	width: 115px;
+	height: auto;
+	margin: 55px 0;
+}
+.button a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #171b16;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-radius: 1px;
+	background-color: #cfc91d;
+	padding: 13px 30px;
+}
+/******* About Area ********/
+.about-area {
+	text-align: center;
+	overflow: hidden;
+	padding: 60px 0;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #02918c;
+}
+.about-area .icon {
+	color: #afb1b3;
+	font-size: 16px;
+}
+p {
+	color: #7e8287;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 40px 0;
+}
+p span {	
+	font-size: 25px;
+	font-weight: 800;
+}
+.about-category {
+	margin-top: 90px;
+	overflow: hidden;
+}
+.col-1-4 {
+	float: left;
+	width: 23%;
+	height: auto;
+	margin: 1% 0;
+	border-right: 2px solid #d9dbdb;	
+}
+.col-1-4:last-child {
+	border-right: 2px solid transparent;
+}
+.col-1-4 i {
+	color: #0d9691;
+	font-size: 40px;
+	font-weight: 400;
+}
+.col-1-4 h5 {
+	color: #7e8287;
+	font-size: 15px;
+}
+.col-1-4 p {
+	color: #b8babd;
+	font-size: 14px;
+}
+/****** Services Area ******/
+.services-area {
+	overflow: hidden;	
+	background-image: url('images/background-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 40px 0;	
+}
+.services-category .col-1-4 {
+	border-style: none;	
+}
+.services-category .col-1-4:nth-child(2n) {
+	margin-right: 50%;	
+}
+/****** Work Area ******/
+.work-area {
+	text-align: center;
+	overflow: hidden;
+	padding-top: 40px;
+}
+.col-1-8 {
+	width: 25%;	
+	float: left;
+	overflow: hidden;		
+}
+.photo-area .col-1-8 img {	
+	width: 100%;
+	height: auto;
+}
+/****** Contact Area ******/
+.contact-area {
+	text-align: center;
+}
+/****** Submit Area ******/
+.submit-area {
+	text-align: center;	
+	background-color: #0b0b0b;
+	overflow: hidden;
+}
+.submit-area input[type="text"],
+.submit-area input[type="email"] {
+	text-align: center;
+	background-color: #0b0b0b;
+	color: #B6BABD;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #898989;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+.submit-area .text {
+	padding: 0 25%;
+}
+.submit-area .message {
+	padding: 0 10%;
+	overflow: hidden;
+}
+.submit {
+	margin: 75px 0;
+	text-align: center;
+}
+.submit input[type="submit"] {
+	border-radius: 1px;
+	background-color: #cfc91d;
+	border: none;
+	color: #0b1016;
+	font-size: 15px;
+	padding: 15px 60px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+}
+/****** Footer Area ******/
+.footer-area {
+	text-align: center;
+	background-color: #000000;
+	padding: 30px 0;
+}
+.footer-area h4 {
+	margin: 0;
+	color: #7e8287;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+}

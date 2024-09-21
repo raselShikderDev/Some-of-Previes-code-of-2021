@@ -1,0 +1,252 @@
+@font-face {
+    font-family:"Poppins-Black";
+    src: url(../fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+/*  font-family: 'Poppins', sans-serif; */
+
+
+:root{
+    --primary: #3dcfd3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+}
+
+/* ========== Reusable Content ========= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-font-smothing:antialiased;
+}
+
+
+body, html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:10px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smothing:antialiased;
+}
+
+.container {
+    width: 100%;
+    padding: 0rem 1.5rem;
+    margin: 0rem auto;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+img{
+    object-fit:contain;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+/* ========== Header ========== */
+
+header{
+    background:var(--dark);
+    color:var(--pure);
+    font-size:1.5rem;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 96%, 72% 85%, 0% 98%);
+}
+
+header nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header nav{
+    padding:2rem 0rem;
+}
+
+header nav .left{
+    display:flex;
+    align-items:center;
+    
+}
+
+nav .left .links{
+    margin-left:3.5rem;
+}
+
+header nav .left a{
+    color:var(--pure);
+    margin-right:1rem;
+    border-radius:0.2rem;
+    transition:all 0.3s ease;
+}
+
+header nav .left a:hover{
+    color:var(--primary);
+}
+
+header nav .left a:last-child{
+    margin-right:0rem;
+}
+
+header nav .right button{
+    color:var(--pure);
+    padding:0.9rem 2rem;
+    border-radius:0.2rem;
+    font-size:1.6rem;
+    background:var(--primary);
+    border:none;
+    color:var(--dark);
+    font-weight:500;
+    text-transform:uppercase;
+    transition:all 0.3s ease;
+}
+
+header nav .right button:hover{
+    border:0.2rem solid var(--primary);
+    background:transparent;
+    color:var(--primary);
+    outline:0.1rem solod var(--primary);
+}
+
+/* =========== Hero Section ============= */
+
+header .hero {
+    display:flex;
+    align-items:center;
+}
+
+header .hero .man img{
+    width:36rem;
+    margin-top:5rem;
+}
+
+header .hero .about_man{
+    margin-left:4.5rem;
+}
+
+header .hero .about_man h6{
+    font-size:1.8rem;
+    color:var(--primary);
+    margin-bottom:0.7rem;
+}
+
+header .hero .about_man h2{
+    font-size:4rem;
+    margin-bottom:0.8rem;
+}
+
+header .hero .about_man h2 span{
+    color:var(--primary);
+}
+
+header .hero .about_man p{
+     font-size:1.4rem;
+     text-align:justify;
+     margin-bottom:4rem;
+}
+
+header .hero .about_man a{
+    border:0.2rem solid var(--primary);
+    background:transparent;
+    padding:0.9rem 2.1rem;
+    color:var(--primary);
+    transition:all 0.3s ease;
+    border-radius:0.2rem;
+}
+
+header .hero .about_man a:hover{
+    border:none;
+    background:var(--primary);
+    color:var(--dark);
+}
+
+/* ========= About Section ========== */
+
+.about {
+    padding:5rem 0rem;
+}
+
+.about .inner_about{
+    display:flex;
+    align-items:center;
+}
+
+.inner_about .table_man img{
+    width:36rem;
+}
+
+.inner_about .about_txt{
+    margin-left:4.5rem;
+}
+
+.inner_about .about_txt h2{
+    font-size:2rem;
+    font-family:"Poppins-Regular";
+    margin-bottom:0.6rem;
+}
+
+.inner_about .about_txt h4 span{
+    color:var(--primary);
+}
+
+.inner_about .about_txt h{
+    font-size:1.4rem;
+}
+
+.inner_about .about_txt h a{
+    color:var(--dark);
+    font-family:"Poppins-Regular";
+    font-style:italic;
+    text-decoration:underline;
+    font-size:1.2rem;
+}
+
+.inner_about .about_txt p{
+	font-size:1.3rem;
+}
+
+.social_link{
+	background:red;
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .container {
+        max-width: 80rem;
+    }
+}
+
+@media (max-width:480px) {
+   .container{
+        max-width:34rem;
+    }
+}
+

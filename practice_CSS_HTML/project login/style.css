@@ -1,0 +1,170 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#24172b;
+}
+
+.nav-bar{
+	height:50px;
+	width:100%;
+	background-color:red;
+}
+
+
+
+.nav-bar .logo1 img{
+	width:300px;
+	height:65px;
+}
+.nav-bar{
+	background-color:#24172b;
+}	
+	
+.nav-bar .nav-link{
+	position:absolute;
+	right:50px;
+	top:0;
+	
+}
+
+.nav-bar .nav-link .ul1 .list1{
+	padding:0;
+	margin:0;
+	display:inline;
+	padding-right:20px;
+	color:white;
+	font-weight:700;
+}
+
+.nav-bar .nav-link ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+.nav-bar .nav-link ul li a:hover{
+	color:white;
+	text-decoration:none;
+	background:#401077;
+}
+
+.drpdown-content{
+	
+}
+
+.drpdown-content .ul2 li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.drpdown-content{
+	background-color:#24172b;
+	
+}
+
+.drpdown-content .ul2 li a{
+	
+	color:white;
+}
+
+.drpdown-content a:hover{
+	background-color:#401077;
+	
+}
+
+.content{
+	width:650px;
+	height:450px;
+	background-color:lightblue;
+	/*position:absolute;*/
+	margin-top:300px;
+	margin-left:180px;
+	border:1px solid lightblue;
+}
+
+.content .logo2 img{
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	border:0;
+}
+
+.content .login{
+	width:100%;
+	
+	
+}
+
+.radias{
+	border:2px solid #676767;
+	border-radius:10px;
+	width:400px;
+	height:45px;
+	font-size:25px;
+	margin-left:100px;
+	margin-top:40px;
+}
+
+.pass{
+	margin-top:10px;
+}
+
+.email a,.password a{
+	text-decoration:none;
+	margin-left:350px;
+	font-size:15px;
+	color:blue;
+	padding-top:5px;
+}
+	
+}
+
+.login .email input a{
+	text-align:right;
+}
+
+.new-acc{
+	position:absolute;
+	height:100px;
+	color:green;
+	margin-top:110px;
+	margin-left:120px;
+	font-size:25px;
+}
+
+.new-acc label{
+	
+	color:white;
+}
+
+.lgd{
+	position:absolute;
+	left:510px;
+	padding:11px 13px 11px 13px;
+	font-weight:900px;
+	font-style:italic;
+	font-family:fantasy;
+	font-size:28px;
+	background:#63A2DB;
+	box-sizing:border-box;
+	border-radius:40px;
+	border:1px solid #333;
+	color:#fff;
+	margin-top:7px;
+}
+
+.new-acc a{
+	text-decoration:none;
+	color:red;
+}
+
+.footer{
+	width:100%;
+	background-color:#f9f9f9;
+	position:absolute;
+	bottom:0;	
+}
+
+.foooter_rights p{
+	margin-left:365px;
+}

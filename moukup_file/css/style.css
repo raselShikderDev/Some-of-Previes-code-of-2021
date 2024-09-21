@@ -1,0 +1,26 @@
+*{
+margin:0px;
+padding:0px;
+}
+html,body{
+height: 100%;
+} 
+
+body{
+font-size: 15px;
+color: #333333;
+font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+color:#333333;
+}
+p{
+line-height:1.8;
+}
+img{
+max-width:100%;
+}
+
+/*---------All Css Start here-----------*/
+
+/*---------All Css Finish here-----------*/

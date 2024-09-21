@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.pre-loader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pre-loader .loader {
+	height: 80px;
+	width: 80px;
+	border: 8px solid #ffffff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-radius: 50%;
+	position: relative;
+	animation: spin 3s linear infinite;
+}
+
+.pre-loader .loader:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: -15px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+
+@keyframes spin {
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}

@@ -1,0 +1,26 @@
+
+#fix{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+ 
+prev-btn{
+	z-index:999;
+	left:20%;
+	position:absolute;
+}
+
+img{
+	z-index:1;
+	position:relative;
+}
+
+
+btn-next{
+	z-index:999;
+	right:20%;
+	position:absolute;
+}

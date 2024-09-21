@@ -1,0 +1,45 @@
+@media only screen and (max-width:480px){
+	
+	header{
+		height:70vh;
+	}
+	.span_1_of_4 {
+		width:100%; 
+	}
+	
+	.logo{
+		height:2.2rem;
+		width:auto;
+		margin-top:1rem;
+		margin-left:15rem;
+	}
+	
+	.main-nav{
+		margin-top:1rem;
+	}
+	
+	.main-nav li{
+	margin-left:0.1rem;
+	}
+	
+	.main-nav li a:link,.main-nav li a:visited{
+		font-size:1.1rem;
+		padding:.2em 0.5em;
+		border-radius:.3rem;
+		
+	}
+	
+	.main-nav .active-home{
+	border-radius:.3em;
+	}
+	
+	.main-nav li:frist-child{
+	margin-right:0.5em;
+	}
+	
+	h1{
+		font-size:2rem;
+		margin:0;
+		padding:0;
+	}
+}

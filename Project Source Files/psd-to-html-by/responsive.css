@@ -1,0 +1,29 @@
+@media all and (max-width: 768px) {
+	.services-area {
+		text-align: center;
+	}
+	.services-category .col-1-4:nth-child(2n) {
+		margin-right: 0;
+		
+	}.col-1-4:nth-child(2n) {
+		border: none;		
+	}
+	.col-1-4  {
+		width: 48%;		
+	}	
+}
+@media all and (max-width: 600px) {
+	.services-area {
+		text-align: center;
+	}
+	.services-category .col-1-4:nth-child(2n) {
+		margin-right: 0;		
+	}
+	.col-1-4 {
+		border: none;
+		width: 100%;
+	}
+	.col-1-8 {
+		width: 50%;
+	}
+}

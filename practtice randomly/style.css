@@ -1,0 +1,15 @@
+body{background:red;}
+
+div{
+	background:blue;
+	width:90%;
+	margin:auto;
+	height:300px;
+	
+}
+
+section{
+	height:400px;
+	width:80%;
+	background-image:url('home.jpg');
+}

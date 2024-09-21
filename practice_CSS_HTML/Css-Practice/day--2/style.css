@@ -1,0 +1,154 @@
+.rasel{
+	height:150px;
+	width:200px;
+	margin-top:20px;
+	background-color:cyan;	
+	border:1px solid #333;
+	border-radius:6px;
+	transform:translate(300px, 50px);
+	transform:rotate(30deg);
+	transform:scale(0.5);
+	display:none;
+	
+}
+
+p{
+	color:yeallow;
+	font-style:italic;
+	font-weight:900;
+	font-size:30px;
+	text-align:justify;
+	padding:5px;
+}
+
+.rasel:hover{
+	height:150px;
+	width:200px;
+	margin:50px;
+	background-color:red;	
+	border:1px solid #333;
+	border-radius:6px;
+	transform:translate(300px, 50px);
+	transform:rotate(30deg);
+	transform:scale(1.5);
+	transition:10s;
+	
+}
+
+.box{
+	width:150px;
+	height:100px;
+	background:lime;
+	position:relative;
+	border:1px solid #333;
+	border-radius:5px;
+	animation-name:rasel;
+	animation-duration:4s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	display:none;
+	
+}
+
+img{
+	width:90px;
+	height:100px;
+	position:fixed;
+	margin-left:130px;
+	margin-bottom:80px;
+	filter:contrast(250%);
+	display:none;
+}
+
+.box_1{
+	height:80px;
+	width:250px;
+	background-color:red;
+	border:1px solid black;
+	margin-left:50px;
+	padding:25px;
+	box-sizing:border-box;
+	display:none;
+}
+
+.box_2{
+	height:80px;
+	width:250px;
+	background-color:lightblue;
+	border:1px solid black;
+	margin-left:50px;
+	padding:25px;
+	box-sizing:border-box;
+	display:none;
+}
+
+.box_3{
+	height:80px;
+	width:250px;
+	background-color:yellow;
+	border:1px solid black;
+	margin-left:50px;
+	padding:25px;
+	box-sizing:border-box;
+	display:none;
+}
+
+input{
+	background:#FEF9EC;
+	border:0;
+	width:100%;
+}
+
+.gird_cont{
+	display:gird;
+	grid-template-columns: auto auto auto;
+	background-color:red;
+}
+
+.gird{
+	
+}
+
+@keyframes rasel{
+	0%{
+		background:blue;
+		border:1px solid #333;
+		border-radius:5px;
+		left:0;
+		tp:0;
+	}
+	
+	25%{
+		background:red;
+		border:1px solid #333;
+		border-radius:5px;
+		left:200px;
+		top:0;
+	}
+	
+	50%{
+		background:yellow;
+		border:1px solid #333;
+		border-radius:5px;
+		left:200px;
+		top:200px;
+		
+	}
+	
+	75%{
+		background:green;
+		border:1px solid #333;
+		border-radius:5px;
+		left:0;
+		top:200px
+		
+	}
+	
+	100%{
+		background:cyan;
+		border:1px solid #333;
+		border-radius:5px;
+		left:0;
+		top:0;
+	}
+}

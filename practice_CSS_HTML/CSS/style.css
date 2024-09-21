@@ -1,0 +1,27 @@
+body{
+	margin:0;
+}
+
+form{
+	width:675;
+	height:600;
+	display:block;
+}
+
+
+.brd{
+	width:185px;
+	height:20px;
+	color:black;
+}
+
+
+.result{
+	width:500px;
+	height:270px;
+	border:1px solid grey;
+	padding:30px;
+	margin:5px auto;
+	line-height:5px;
+	
+}

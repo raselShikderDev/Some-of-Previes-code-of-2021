@@ -1,0 +1,12 @@
+.cover{
+	background-size:cover;
+	background-color:cyan;
+	Background-image:url("image/test1.png");
+	Padding: 10px 0;
+	Background-position:center;
+	}
+	
+   p{
+   	color:green;
+   	background-color:red;
+    }

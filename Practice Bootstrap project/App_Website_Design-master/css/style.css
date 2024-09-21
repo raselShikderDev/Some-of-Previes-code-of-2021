@@ -1,0 +1,159 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#121212;
+}
+
+body{
+	background:#f2f2f2;
+}
+
+#banner{
+	background:url("../assets/backgroundimg1.jpg");
+	width:100%;
+	height:30vh;
+	background-attachment:;
+	background-position:top top;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+/*#banner:after{
+	content:'';
+	display:table;
+	clear:both;
+}*/
+
+#btn{
+	margin-left:50px;
+}
+
+nav{
+	font-family:Tahoma,Arial,sans-serif;
+	/*background:#B317DC;*/
+	background:linear-gradient(to left, #A40DD4 25%, #8216E0 75%);
+}
+
+
+
+#brand{
+	color:cyan;
+	font-style:italic;
+	font-size:23px;
+	font-weight:600;
+	margin-right:1px;
+}
+
+#heros a{
+	font-family:Tahoma,Arial,sans-serif;
+}
+#heros p{
+	font-family:Tahoma,Arial,sans-serif;
+	font-size:13px;
+	
+}
+
+#hero{
+		margin-top:90px;
+	}
+
+#float{
+	display:flex;
+	justify-content:around;
+}
+h1{
+	color:#fff;
+	font-weight:700;
+	font-size:290%;
+}
+
+#tech .owl-dots{
+	display:none;
+}
+
+#security .item-tittle h3{
+	color:#fff;
+	font-weight:600;
+	font-size:110%;
+}
+
+
+#security .d-flex, #favorite .d-flex{
+	align-items:center;
+}
+
+#security .d-flex a img, #favorite .d-flex a img{
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	margin-right:20px;
+}
+
+#security .owl-nav, #favorite .owl-nav{
+	margin-left:35%;
+	
+}
+
+#security .owl-nav .owl-prev, #favorite .owl-nav .owl-prev{
+	margin-right:15px;
+}
+
+#favorite .owl-nav .owl-prev{
+	background:#fff;
+	padding:15px 0px;
+	display:inline-block;
+}
+
+#favorite{
+	background:#f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+	#btn{
+	margin-left:0px;
+	}
+	
+	#banner{
+		width:100%;
+		min-height:100vh;
+	/*	clip-path:polygon(25% 0%,);*/
+	}
+	
+	#banner{
+	background:url("../assets/backgroundimg1.jpg");
+	width:100%;
+	height:5vh;
+	background-attachment:right;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-
+	}
+	
+	#heros{
+		text-align:center;
+		
+	}
+	
+	#banner{
+		height:17vh;
+		background-attachment:scroll;
+	}
+	
+	
+}

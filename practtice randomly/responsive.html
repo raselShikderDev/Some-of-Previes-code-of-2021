@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  	<style type="text/css">
+  		
+  		.background{
+  		width:100vw;
+  		height: 50vh;
+  		position: relative;
+  		background: #007991;  /* fallback for old browsers */
+  		background: -webkit-linear-gradient(to left, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  		background: linear-gradient(to right, #7efff9, #0493af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  		display: flex;
+  		justify-content: cms: center;
+  		transfenter;
+  		align-iteorm: translateY(40%);
+  		flex-wrap: wrap;
+  		}
+  		.background h4{
+  		flex: 1 1 100%;
+  		display: flex;
+  		margin-left: 13%;
+  		color: white;
+  		font-family: 'Roboto Slab',sans-serif;
+  		font-size: 2rem;
+  		padding-bottom: 8%;
+  		}
+  		.background p{
+  		flex: 1 1 100%;
+  		display: flex;
+  		word-spacing: 6px;
+  		font-size: 1.3rem;
+  		font-family: 'Roboto slab',sans-serif;
+  		color: white;
+  		text-transform: capitalize;
+  		/* font-weight: bolder; */
+  		padding-top: 11%;
+  		margin-left: 16%;
+  		line-height: 100%;
+  		letter-spacing: 2px;
+  		}
+  		
+  		.background .childDiv{
+  		
+  		position: absolute;
+  		
+  		width: 370px;
+  		
+  		display: flex;
+  		
+  		justify-content: center;
+  		
+  		align-items: center;
+  		
+  		flex-wrap: wrap;
+  		
+  		min-height: 344px;
+  		
+  		background: rgb(255 254 254);
+  		
+  		top: -61px;
+  		
+  		margin: 1rem;
+  		
+  		padding: 2rem;
+  		
+  		box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+  		
+  		border-radius: 5px;
+  		
+  		background-size: contain;
+  		
+  		background-position: center;
+  		}
+  		.background .childDiv .signup{display: flex;justify-content: center;align-items: center;flex-wrap: wrap;background: transparent;}
+  		.background .childDiv .signup input[type='text']{flex: 1 1 100%;margin-bottom: .5rem;padding: 1rem;font-size: 1.5rem;font-family: 'Roboto Slab',sans-serif;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #adb5bd;outline: none;background: transparent;}
+  		
+  		.background .childDiv .signup input[type='checkbox']{flex: 1 1 7%;margin-bottom: .5rem;padding: 1rem;font-size: 1.5rem;font-family: 'Roboto Slab',sans-serif;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #adb5bd;}
+  		.background .childDiv .signup input[type='email']{flex: 1 1 100%;margin-bottom: .5rem;padding: 1rem;font-size: 1.5rem;font-family: 'Roboto Slab',sans-serif;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #adb5bd;outline: none;background: transparent;}
+  		
+  		.background .childDiv .signup input[type='password']{flex: 1 1 100%;margin-bottom: .5rem;padding: 1rem;font-size: 1.5rem;font-family: 'Roboto Slab',sans-serif;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #adb5bd;outline: none;background: transparent;}
+  		
+  		.background .childDiv .signup input[type='submit']{flex: 1 1 20%;display: flex;justify-content: center;align-items: center;padding: .5rem 2rem;border-radius: 40px;background: #0fd1e9;font-size: 1.5rem;font-family: 'Roboto Slab',sans-serif;border: 2px solid #00800078;outline: none;color: white;}
+  		.background .childDiv .signup label{
+  		flex: 1 1 93%;
+  		font-size: 1.5rem;
+  		font-family: 'Roboto Slab',sans-serif;
+  		color: #6c757d;
+  		}
+  		.background .childDiv .signup h4{}
+  		.background .childDiv .signup span{
+  		flex: 1 1 50%;
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		flex-wrap: wrap;
+  		font-size: 1.3rem;
+  		font-family: 'Roboto Slab',sans-serif;
+  		color: #607D8B;
+  		padding-left: 2%;
+  		word-spacing: 5px;
+  		}
+  		.background .childDiv .signup strong{
+  		flex: 1 1 52%;
+  		}
+  		
+  		.background .childDiv .signup  h3{
+  		
+  		margin: 0;
+  		
+  		display: flex;
+  		
+  		justify-content: center;
+  		
+  		align-items: center;
+  		
+  		padding-bottom: 1rem;
+  		
+  		font-family: 'Roboto Slab',sans-serif;
+  		
+  		color: #00BCD4;
+  		
+  		/* border-bottom: 2px solid #ddd; */
+  		
+  		text-align: center;
+  		}
+  		.background .childDiv .signup a{
+  		
+  		flex: 1 1 auto;
+  		
+  		padding: 0.5rem 1rem;
+  		
+  		font-size: 1.4rem;
+  		
+  		font-family: 'Roboto Slab',sans-serif;
+  		
+  		color: #9E9E9E;
+  		
+  		text-decoration: none;
+  		
+  		border-bottom: 1px solid;
+  		
+  		display: flex;
+  		
+  		justify-content: flex-start;
+  		}
+  	</style>
+  </head>
+  <body>
+		<div class="background">
+		<p>We are a Group of Expert</p>
+		<h4>Are you ready to work Faster?</h4>
+		<div class="childDiv">
+		<form action="#" method="post" class="signup">
+		<h3>Sign Up for a free trial</h3>
+		<input type="text" name="fname" placeholder="First Name" autocomplete="off">
+		<input type="text" name="fname" placeholder="Last Name" autocomplete="off">
+		<input type="email" name="fname" placeholder="E-Mail Address" autocomplete="off">
+		<input type="password" name="fname" placeholder="Choose Password" autocomplete="off">
+		<input type="password" name="fname" placeholder="Confirm Password" autocomplete="off">
+		<input type="checkbox" name="agree" id="agree">
+		<label for="agree">I agree with the terms and condition</label>
+		<input type="submit" value="Sign Up Now"> <span>or call us <br/>+49 123 456 789</span>
+		<a href="#">I already have an account</a>
+		</form>
+		</div>
+		</div>
+  </body>
+</html>
